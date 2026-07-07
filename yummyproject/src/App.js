@@ -34,11 +34,7 @@ function App() {
           <Route path='/events' element={<Events/>} />
           <Route path='/chefs' element={<Chefs/>} />
           <Route path='/Booking' element={<Booking/>} />
-
-          <Route 
-            path='/gallery' 
-            element={<Gallery/>} 
-          />
+          <Route path='/gallery' element={<Gallery/>} />
           <Route path='*' element={<PageNotFound/>} />
         </Route>
       </Routes>
